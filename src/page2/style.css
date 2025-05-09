@@ -1,8 +1,9 @@
 head , body{
-    margin: 0%;
-    padding: 0%;
-    margin-top: 3.5%;
-    top: 0%;
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+    padding: auto;
+    top: auto;
     display: flex;
     justify-content: center;
 }
@@ -11,6 +12,8 @@ head , body{
   position: relative;
   justify-content: center;
   align-self: center;
+  left: 100px;
+  top: 500px;
 }
 
 .Photovideo{
@@ -79,7 +82,7 @@ head , body{
   width: 1340px;
   height: 456px;
   margin-top: 500px;
-  margin-left: -3735px;
+  margin-left: -3550px;
   position: relative;
   top: 500px;
 }
