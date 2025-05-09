@@ -132,7 +132,7 @@ head , body{
   z-index: 10;
   color: white;
   top: -280px;
-  left: 31vh;
+  left: 37vh;
 }
 
 
@@ -266,7 +266,7 @@ head , body{
   .container-heart_eyes2{
    position: relative;
    top: -80px;
-   left: 32vh;
+   left: 39vh;
   }
 
   .container-eyes2{
@@ -334,7 +334,7 @@ head , body{
     left: 20px;
     position: relative;
     margin-left: 285px;
-    top: -5vh;
+    top: -7vh;
     transition: all 0.3s;
   }
   
@@ -371,6 +371,7 @@ head , body{
 .product-card3 {
     font-family: Arial, sans-serif;
     width: 450px;
+    height: 114px;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -391,8 +392,8 @@ head , body{
 
   .container-heart_eyes3{
     position: relative;
-    top: -6vh;
-    left: 33vh;
+    top: -7vh;
+    left: 39.5vh;
   }
 
   .container-eyes3{
@@ -416,7 +417,7 @@ head , body{
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    top: 110px;
+    top: 90px;
     margin-left: -100px;
   }
   
@@ -533,8 +534,8 @@ head , body{
 
   .container-heart_eyes4{
     position: relative;
-    top: -26.5vh;
-    left: 12vh;
+    top: -31.5vh;
+    left: 14.5vh;
   }
 
   .container-eyes4{
@@ -568,8 +569,8 @@ head , body{
 
 .container-heart_eyes5{
   position: relative;
-  top: -18vh;
-  left: 10vh;
+  top: -21.5vh;
+  left: 12vh;
 }
 
 .container-eyes5{
