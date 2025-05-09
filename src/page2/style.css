@@ -7,9 +7,12 @@ head , body{
     justify-content: center;
 }
 
+
+
 .Photovideo{
   display: flex;
   justify-content: center;
+  margin-left: -2300px;
 }
 
 #media-container{
@@ -71,9 +74,9 @@ head , body{
   width: 1340px;
   height: 456px;
   margin-top: 500px;
-  margin-left: -1990px;
+  margin-left: -3735px;
   position: relative;
-  top: 100px;
+  top: 600px;
 }
 
 /* Первый товар  */
