@@ -1,9 +1,9 @@
-head , body{
+head , body, main{
     width: 1920px;
     height: 1080px;
     margin: auto;
     padding: auto;
-    top: auto;
+    top: -85%;
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,6 @@ head , body{
   justify-content: center;
   align-self: center;
   left: 100px;
-  top: 500px;
 }
 
 .Photovideo{
