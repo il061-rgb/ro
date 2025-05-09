@@ -95,8 +95,8 @@ head , body{
   font-family: Arial, sans-serif;
   border-radius: 8px;
   padding: 20px;
-  width: 16%;
-  height: 100%;
+  width: 440px;
+  height: 350px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   background: none !important;
   position: relative;
@@ -128,21 +128,29 @@ head , body{
 
 
 .container-heart_eyes{
-  position: relative;
+  position: absolute;
+  flex-shrink: 0;
+  margin-bottom: 15px;
   z-index: 10;
   color: white;
-  top: -280px;
-  left: 37vh;
+  top: -110px;
+  left: 38vh;
 }
 
-
-
-
-
-.container-eyes svg{
+.container-heart  svg{
+  position: absolute;
+  top: 0px;
   position: relative;
-  top: -10px;
+  z-index: 10;
 }
+
+.container-eyes, svg{
+  position: absolute;
+  top: 15px;
+}
+
+
+
 
 
 .badges {
@@ -150,7 +158,7 @@ head , body{
   gap: 10px;
   margin-bottom: 15px;
   position: relative;
-  top: -100px;
+  top: 0px;
   margin-left: -20px;
 }
 
@@ -192,7 +200,7 @@ head , body{
   left: 40px;
   position: relative;
   margin-left: 110px;
-  top: 40px;
+  top: 130px;
 }
 
 .order-button1 {
@@ -209,7 +217,7 @@ head , body{
   left: 20px;
   position: relative;
   margin-left: 210px;
-  top: -60px;
+  top: 30px;
   transition: all 0.3s;
 }
 
@@ -265,13 +273,18 @@ head , body{
 
   .container-heart_eyes2{
    position: relative;
-   top: -80px;
+   top: -60px;
    left: 39vh;
+  }
+
+  .container-heart2{
+    position: relative;
+    top: -40px;
   }
 
   .container-eyes2{
     position: relative;
-    top: -1vh;
+    top: -0.9vh;
   }
   
   .badges2 {
@@ -279,7 +292,7 @@ head , body{
     gap: 10px;
     margin-bottom: 15px;
     position: relative;
-    top: -90px;
+    top: 0px;
   }
   
   .discount-badge2 {
@@ -318,7 +331,7 @@ head , body{
     left: 20px;
     position: relative;
     margin-left: 200px;
-    top: -20px;
+    top: 55px;
   }
   
   .order-button2 {
@@ -334,7 +347,7 @@ head , body{
     left: 20px;
     position: relative;
     margin-left: 285px;
-    top: -7vh;
+    top: 0vh;
     transition: all 0.3s;
   }
   
@@ -351,8 +364,8 @@ head , body{
    .Container3  {
     border-radius: 15px;
     position: relative;
-    width: 387px;
-    height: 114px;
+    width: 450px;
+    height: 454px;
     z-index: 10;
     top: 10px;
     margin-left: -390px;
@@ -371,7 +384,7 @@ head , body{
 .product-card3 {
     font-family: Arial, sans-serif;
     width: 450px;
-    height: 114px;
+    height: 200px;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -396,9 +409,14 @@ head , body{
     left: 39.5vh;
   }
 
+  .container-heart3{
+    position: absolute;
+    top: -1.9vh;
+  }
+
   .container-eyes3{
     position: relative;
-    top: -1vh;
+    top: 0.5vh;
   }
   
   .badges3 {
@@ -406,7 +424,7 @@ head , body{
     gap: 10px;
     margin-bottom: 15px;
     position: relative;
-    top: -6vh;
+    top: 1vh;
   }
   
   .discount-badge3 {
@@ -428,7 +446,7 @@ head , body{
     margin-bottom: 20px;
     left: 20px;
     position: relative;
-    top: -20px;
+    top: 55px;
     margin-left: 200px;
   }
   
@@ -444,7 +462,7 @@ head , body{
     transition: background-color 0.3s;
     left: 20px;
     position: relative;
-    top: -75px;
+    top: 0px;
     margin-left: 285px;
     transition: all 0.3s;
   }
@@ -469,7 +487,7 @@ head , body{
     padding: 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0);
-    background: none !important;
+    background: rgb(237, 237, 237);
     width: 180px;
     height: 465px;
     left: 450px;
@@ -533,14 +551,20 @@ head , body{
   }
 
   .container-heart_eyes4{
+    object-position: center;
     position: relative;
-    top: -31.5vh;
+    top: -30vh;
     left: 14.5vh;
   }
 
+  .container-heart4{
+    position: absolute;
+    top: -35px;
+  }  
+
   .container-eyes4{
     position: relative;
-    top: -1vh;
+    top: -0.5vh;
   }
 
   
@@ -551,44 +575,49 @@ head , body{
   object-position: center;
   border-radius: 5px 5px 0px 0px;
   position: relative;
-  top: -15px;
+  top: -17px;
   margin-left: -20px;
 }
 
 .product-card {
-    background-color: white;
+    background-color: rgb(237, 237, 237);
     border-radius: 15px;
     padding: 20px;
     box-shadow:  rgba(0, 0, 0, 0);
-    width: 164px;
+    width: 161px;
     height: 472px;
     position: relative;
-    top: -520px;
+    top: -515px;
     left: 300px;
 }
 
 .container-heart_eyes5{
   position: relative;
-  top: -21.5vh;
+  top: -20.5vh;
   left: 12vh;
+}
+
+.container-heart5{
+  position: absolute;
+  top: -35px;
 }
 
 .container-eyes5{
   position: relative;
-  top: -1vh;
+  top: -0.5vh;
 }
 
 
 .img2 img{
-  width: 115px;
-  height: 156px;
+  width: 125px;
+  height: 160px;
   object-fit: cover;    
   transform: scale(1.6); 
   transform-origin: center;
   border-radius: 5px 5px 0px 0px;
   position: relative;
-  margin-left: 20px;
-  top: 37px;
+  margin-left: 18px;
+  top: 30px;
 }
 
 .product-name1 {
@@ -596,15 +625,16 @@ head , body{
     margin-bottom: 10px;
     line-height: 1.3;
     position: relative;
-    top: -180px;
+    top: -100px;
     margin-left: 5px;
 }
 .product-name2 {
-  font-size: 20px;
+  font-size: 17px;
+  width: 100%;
   margin-bottom: 10px;
   line-height: 1.3;
   position: relative;
-  top: -68px;
+  top: 13px;
 }
 
 /* Два ценника  */
@@ -614,7 +644,7 @@ head , body{
     font-weight: bold;
     margin: 15px 0;
     position: relative;
-    top: -170px;
+    top: -45px;
     margin-left: 45px;
 }
 
@@ -625,7 +655,7 @@ head , body{
   font-weight: 50px;
   margin: 15px 0;
   position: relative;
-  top: -65px;
+  top: 70px;
   margin-left: 35px;
 } 
 /* Два ценника  */
@@ -641,7 +671,7 @@ head , body{
     width: 100%;
     font-size: 14px;
     position: relative;
-    top: -120px;
+    top: -35px;
     transition: all 0.3s;
 }
 
@@ -655,7 +685,7 @@ head , body{
   width: 100%;
   font-size: 14px;
   position: relative;
-  top: -10px;
+  top: 76px;
   left: -5px;
   transition: all 0.3s;
 } 
