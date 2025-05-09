@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Форма заявки</title>
+</head>
+<body>
+
+    <main>
+        <section>
+           <div class="form-container">
+             <h1>Оставьте заявку</h1>
+             <form id="containerForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                    <div id="nameError" class="error-message">Поле не заполнено</div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+                    <div id="phoneError" class="error-message">Поле не заполнено</div>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agreement" name="agreement">
+                    <label for="agreement">Я соглашаюсь на обработку персональных данных</label>
+                </div>
+        
+                <a href="src/page2/index.html" class="next-button">Перейти далее</a>
+            </form>
+        </div>
+             </form>
+             
+           </div>
+        </section>
+    </main>
+</body>
+</html>

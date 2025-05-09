@@ -1,0 +1,689 @@
+head , body{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 3.5%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.Photovideo{
+  display: flex;
+  justify-content: center;
+}
+
+#media-container{
+  width: 1200px;
+  height: 517px;
+}
+#media-container img{
+  width: 1400px;
+  height: 517px;
+  transition: transform 1.4 ease;
+  transform: scale(1.6);
+  transform-origin: center;
+  object-fit: cover;
+  position: relative;
+  z-index: 10;
+}
+
+.click-button0{
+  width: 100px;
+  height: 40px;
+  position: relative;
+  z-index: 11;
+  left: -620px;
+  top: 200px;
+}
+
+.play{
+  width: 70px;
+  height: 50px;
+  margin-left: 20px;
+}
+.click-button01{
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+}
+.click-button01:hover{
+  transform: scale(1.05);
+}
+
+#media-container, video{
+  width: 1200px;
+  height: 517px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Block{
+  display: flex;
+  justify-content: center;
+  width: 1340px;
+  height: 456px;
+  margin-top: 500px;
+  margin-left: -1990px;
+  position: relative;
+  top: 100px;
+}
+
+/* Первый товар  */
+
+ .Container1  {
+  width: 387px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 10;
+  margin-left: 3580px;
+  top: -200px;
+}
+
+
+
+
+.product-card10 {
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  padding: 20px;
+  width: 16%;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: none !important;
+  position: relative;
+  z-index: 1;
+  top: -300px;
+}
+
+.container-img{
+  width: 367px;
+  height: 320px;
+  border-radius: 5px;
+  transition: transform 1.4 ease;
+  transform: scale(1.6); 
+  transform-origin: center;
+  object-fit: cover;
+  object-position: left top;
+}
+.product-title p{
+  font-size: 30px;
+  font-weight: bold;
+  width: 350px;
+  height: 100px;
+  margin-bottom: 15px;
+  color: white;
+  position: relative;
+  top: -160px;
+  margin-left: -120px;
+}
+
+
+.container-heart_eyes{
+  position: relative;
+  z-index: 10;
+  color: white;
+  top: -280px;
+  left: 31vh;
+}
+
+
+
+
+
+.container-eyes svg{
+  position: relative;
+  top: -10px;
+}
+
+
+.badges {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  top: -100px;
+  margin-left: -20px;
+}
+
+.discount-badge1 {
+  background-color: #18C576;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 140px;
+  margin-left: -100px;
+}
+
+.day-product1 {
+  background-color: #FFA726;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: 1px dashed #ff8f00;
+  position: relative;
+  z-index: 10;
+  top: 180px;
+  margin-left: -80px;
+}
+
+
+
+
+.price1 {
+  font-size: 23px;
+  font-weight: bold;
+  width: 70px;
+  height: 70px;
+  color: white;
+  margin-bottom: 20px;
+  left: 40px;
+  position: relative;
+  margin-left: 110px;
+  top: 40px;
+}
+
+.order-button1 {
+  background-color: #18C576;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 19px;
+  cursor: pointer;
+  width: 212px;
+  height: 42px;
+  transition: background-color 0.3s;
+  left: 20px;
+  position: relative;
+  margin-left: 210px;
+  top: -60px;
+  transition: all 0.3s;
+}
+
+.order-button1:hover {
+  transform: scale(1.05);
+} 
+
+/* Первый товар */
+
+/* Второй товар */
+
+ .Container2  {
+    border-radius: 15px;
+    width: 387px;
+    height: 154px;
+    position: relative;
+    z-index: 10;
+    top: -250px;
+    margin-left: 250px;
+}
+
+.card2{
+    border-radius: 5px;
+    transition: transform 1.9 ease;
+    transform: scale(1.6);
+    object-fit: cover;
+}
+
+
+
+.product-card2 {
+    font-family: Arial, sans-serif;
+    width: 450px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+    top: -200px;
+  }
+  
+  .product-title2 p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    position: relative;
+    margin-left: -110px;
+    top: -30px;
+  }
+
+
+  .container-heart_eyes2{
+   position: relative;
+   top: -80px;
+   left: 32vh;
+  }
+
+  .container-eyes2{
+    position: relative;
+    top: -1vh;
+  }
+  
+  .badges2 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -90px;
+  }
+  
+  .discount-badge2 {
+    background-color: #FF5BC6   ;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    margin-left: -110px;
+  }
+  
+  .day-product2 {
+    background-color: #39B0F4;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 1px dashed #39B0F4;
+    position: relative;
+    z-index: 10;
+    margin-left: -80px;
+    top: 110px;
+  }
+
+  
+
+  
+  .price2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    left: 20px;
+    position: relative;
+    margin-left: 200px;
+    top: -20px;
+  }
+  
+  .order-button2 {
+    background-color: #18C576;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 300px;
+    transition: background-color 0.3s;
+    left: 20px;
+    position: relative;
+    margin-left: 285px;
+    top: -5vh;
+    transition: all 0.3s;
+  }
+  
+  .order-button2:hover {
+    transform: scale(1.05);
+  }
+
+  /* Второй товар */
+   
+  
+
+/* Третий товар */
+
+   .Container3  {
+    border-radius: 15px;
+    position: relative;
+    width: 387px;
+    height: 114px;
+    z-index: 10;
+    top: 10px;
+    margin-left: -390px;
+}
+
+.card3{
+    border-radius: 5px;
+    transition: transform 1.4 ease;
+    transform: scale(1.6);
+    object-fit: cover;
+}
+
+
+
+
+.product-card3 {
+    font-family: Arial, sans-serif;
+    width: 450px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+    top: -200px;
+  }
+  
+  .product-title3 p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    position: relative;
+    top: -30px;
+    margin-left: -110px;
+  }
+
+  .container-heart_eyes3{
+    position: relative;
+    top: -6vh;
+    left: 33vh;
+  }
+
+  .container-eyes3{
+    position: relative;
+    top: -1vh;
+  }
+  
+  .badges3 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -6vh;
+  }
+  
+  .discount-badge3 {
+    background-color: #AC59F1;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 110px;
+    margin-left: -100px;
+  }
+  
+  .price3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    left: 20px;
+    position: relative;
+    top: -20px;
+    margin-left: 200px;
+  }
+  
+  .order-button3 {
+    background-color: #18C576;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 60%;
+    transition: background-color 0.3s;
+    left: 20px;
+    position: relative;
+    top: -75px;
+    margin-left: 285px;
+    transition: all 0.3s;
+  }
+  
+  .order-button3:hover {
+    transform: scale(1.05);
+  }
+
+/* Третий товар */  
+
+   
+/* 2 товара */
+
+
+.twotovar{
+ position: relative;
+ margin-left: 90px;
+ top: -290px;
+}
+
+.product-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0);
+    background: none !important;
+    width: 180px;
+    height: 465px;
+    left: 450px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    top: -10px;
+    margin-left: -400px;
+  }
+
+
+  .Hittes{
+    position: relative;
+    top: 50px;
+  }
+
+  .Hit{
+    background-color: #FFA726;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    max-width: 80px;
+    position: relative;
+    z-index: 1;
+    top: -310px;
+    margin-left: -10px;
+  }
+
+
+  .Hit10 p {
+    background-color: #18C576;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: px;
+    font-weight: bold;
+    max-width: 50px;
+    position: relative;
+    z-index: 1;
+    top: -320px;
+    margin-left: -10px;
+  }
+
+  .Hit3 {
+    position: relative;
+    top: 3px;
+  }
+  .Hit3 p{
+    background-color: #AC59F1;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 40px;
+    position: relative;
+    z-index: 1;
+    top: -188px;
+    margin-left: -10px;
+  }
+
+  .container-heart_eyes4{
+    position: relative;
+    top: -26.5vh;
+    left: 12vh;
+  }
+
+  .container-eyes4{
+    position: relative;
+    top: -1vh;
+  }
+
+  
+.img1 img{
+  width: 220px;
+  height: 250px;
+  object-fit: cover;    
+  object-position: center;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  top: -15px;
+  margin-left: -20px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow:  rgba(0, 0, 0, 0);
+    width: 164px;
+    height: 472px;
+    position: relative;
+    top: -520px;
+    left: 300px;
+}
+
+.container-heart_eyes5{
+  position: relative;
+  top: -18vh;
+  left: 10vh;
+}
+
+.container-eyes5{
+  position: relative;
+  top: -1vh;
+}
+
+
+.img2 img{
+  width: 115px;
+  height: 156px;
+  object-fit: cover;    
+  transform: scale(1.6); 
+  transform-origin: center;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  margin-left: 20px;
+  top: 37px;
+}
+
+.product-name1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    position: relative;
+    top: -180px;
+    margin-left: 5px;
+}
+.product-name2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  position: relative;
+  top: -68px;
+}
+
+/* Два ценника  */
+ .product-price10 {
+  font-size: 40px;
+  color: #444444;
+    font-weight: bold;
+    margin: 15px 0;
+    position: relative;
+    top: -170px;
+    margin-left: 45px;
+}
+
+.product-price11{
+  font-size: 40px;
+  color: #444444;
+  font-weight: bold;
+  font-weight: 50px;
+  margin: 15px 0;
+  position: relative;
+  top: -65px;
+  margin-left: 35px;
+} 
+/* Два ценника  */
+
+/* Две кнопки  */
+ .order-button15 {
+    background-color: #18C576;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    top: -120px;
+    transition: all 0.3s;
+}
+
+.order-button20 {
+  background-color: #18C576;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  position: relative;
+  top: -10px;
+  left: -5px;
+  transition: all 0.3s;
+} 
+
+/* Две кнопки  */
+
+ .order-button15:hover {
+    transform: scale(1.05);
+}
+.order-button20:hover {
+  transform: scale(1.05);
+}  
+
+
+
+
+.forma{
+  position: relative;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background-color: #18C576;
+  top: -100px;
+}
+
+
+.click-button-form{
+  width: 150px;
+  height: 100px;
+  position: relative;
+  z-index: 11;
+}
