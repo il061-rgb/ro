@@ -63,6 +63,11 @@ input[type="tel"] {
     top: -4px;
 }
 
+.checkbox-group label{
+    position: relative;
+    top: -0.5vh;
+}
+
 
 
 .next-button {
@@ -78,13 +83,10 @@ input[type="tel"] {
     transition: background-color 0.3s;
     position: relative;
     margin-left: 550px;
+      cursor: pointer;
+    transition: all 0.3s;
 }
 
-
-
-.next-button:hover {
-    background-color: #2980b9;
-}
 
 .required::after {
     content: " *";
